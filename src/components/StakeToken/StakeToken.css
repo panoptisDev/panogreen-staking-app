@@ -1,0 +1,75 @@
+.token-amount-form {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 36px 36px 0px 36px;
+  }
+  .token-input-label {
+    opacity: 0.8;
+    font-size: 12px;
+    font-weight: 400;
+    margin-bottom: 18px;
+  }
+  .token-amount-form input {
+    background-color: #ffffff;
+    padding: 24px;
+    width: 100%;
+    border-radius: 12px;
+    border: 2px solid rgb(26, 88, 1);
+    opacity: 0.4;
+  }
+  .token-amount-form input:hover {
+    opacity: 0.8;
+  }
+  .token-amount-form Button {
+    width: 100%;
+    padding: 14px 0 14px 0;
+    margin-top: 12px;
+    font-size: 16px;
+    color: white;
+    background-color: rgb(63, 173, 20);
+  }
+  .token-amount-form Button:hover {
+    background-color: rgb(47, 165, 8);
+  }
+  .stake-amount-form {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 36px 36px 12px 36px;
+  }
+  .stake-input-label {
+    opacity: 0.8;
+    font-size: 12px;
+    font-weight: 400;
+    margin-bottom: 18px;
+  }
+  .stake-amount-form input {
+    border-style: none;
+    background-color: #ffffff;
+    padding: 24px;
+    width: 100%;
+    border-radius: 12px;
+    border: 2px solid var(--primary-color);
+    opacity: 0.4;
+  }
+  .stake-amount-form input:hover {
+    opacity: 0.8;
+  }
+  .stake-amount-form Button {
+    width: 100%;
+    padding: 14px 0 14px 0;
+  
+    margin-top: 12px;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(53, 173, 20);
+  }
+  .stake-amount-form Button:hover {
+    background-color: rgb(11, 165, 8);
+  }
+  

@@ -1,0 +1,13 @@
+.claim-reward Button {
+    width: 420px !important;
+    margin-top: 0px;
+    font-size: 16px;
+    font-weight: 400;
+    border-color: rgb(255, 255, 255);
+  }
+  
+  Button:hover {
+    background-color: rgb(41, 195, 2);
+    color: rgb(255, 255, 255);
+  }
+  
