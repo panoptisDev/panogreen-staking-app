@@ -32,7 +32,8 @@ const Navigation = () => {
         <ConnectedAccount provider={provider} />
         <ConnectedNetwork provider={provider} />
         <img
-          src="src/assets/banner44.png"
+          //src="src/assets/banner44.png"
+          src="https://iili.io/JNmV6ep.png"
           alt="DigiStake Logo"
           className="logo"
         />
