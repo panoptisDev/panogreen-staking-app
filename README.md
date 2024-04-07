@@ -39,9 +39,6 @@ You need to approve staking contract for each token first before you can use the
 
 ---
 
-## stakingV2.sol test
-https://sepolia.etherscan.io/address/0xf37894409dF321A66a2D9F167e5064b9B5C5da28#code
-
 ## When deploying token
 Add for example 10000000 for ten million tokens, don't add eighteen extra zeros.
 
