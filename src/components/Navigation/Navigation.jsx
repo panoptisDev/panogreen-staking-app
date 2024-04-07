@@ -6,7 +6,16 @@ import ConnectedNetwork from "./ConnectedNetwork";
 import "./Navigation.css";
 
 const Navigation = () => {
+  const [logoSrc, setLogoSrc] = useState("https://iili.io/JNmV6ep.png");
   const [provider, setProvider] = useState(null);
+
+  const handleMouseEnter = () => {
+    setLogoSrc("https://iili.io/JNmVTfs.png");
+  };
+  ////src="src/assets/banner44.png"
+  const handleMouseLeave = () => {
+    setLogoSrc("https://iili.io/JNmV6ep.png");
+  };
 
   const handleWallet = async () => {
     if (window.ethereum) {
@@ -32,10 +41,11 @@ const Navigation = () => {
         <ConnectedAccount provider={provider} />
         <ConnectedNetwork provider={provider} />
         <img
-          //src="src/assets/banner44.png"
-          src="https://iili.io/JNmV6ep.png"
+          src={logoSrc}
           alt="DigiStake Logo"
           className="logo"
+          onMouseEnter={handleMouseEnter}
+          onMouseLeave={handleMouseLeave}
         />
       </div>
     </header>
