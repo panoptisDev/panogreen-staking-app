@@ -20,13 +20,13 @@ const TokenApproval =()=>{
     await toast.promise(transaction.wait(),
     {
       loading: "Transaction is pending...",
-      success: 'Transaction successful',
+      success: 'Transaction was successful',
       error: 'Transaction failed 🤯'
     });
     approvedTokenRef.current.value = "";
     const receipt = await transaction.wait();
     if (receipt.status === 1) {
-        toast.success("Transaction is successful")
+        toast.success("Transaction was successful")
         approvedTokenRef.current.value = "";
       } else {
           toast.error("Transaction failed. Please try again.")

@@ -27,7 +27,7 @@ const WithdrawStakeAmount =()=>{
     await toast.promise(transaction.wait(),
     {
       loading: "Transaction is pending...",
-      success: 'Transaction successful',
+      success: 'Transaction was successful',
       error: 'Transaction failed 🤯'
     });
     withdrawStakeAmountRef.current.value = "";

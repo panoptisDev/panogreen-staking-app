@@ -22,13 +22,12 @@ const StakeAmount = () => {
     const amountToStake = ethers.parseUnits(amount, 18).toString();
     try {
       const transaction = await stakingContract.stake(amountToStake);
-      await toast.promise(transaction.wait(), {
+      const receipt = await transaction.wait();
+      await toast.promise(receipt, {
         loading: "Transaction is pending...",
-        success: "Transaction successful",
+        success: "Transaction was successful",
         error: "Transaction failed 🤯",
       });
-      stakeAmountRef.current.value = "";
-      setIsReload(!isReload);
       if (receipt.status === 1) {
         setIsReload(!isReload);
         stakeAmountRef.current.value = "";

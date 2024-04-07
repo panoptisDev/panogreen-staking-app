@@ -16,7 +16,7 @@ const ClaimReward = ()=>{
       error: 'Transaction failed 🤯'
     });
     // if(receipt.status === 1){
-    //     setTransactionStatus("Transaction Is Successful")
+    //     setTransactionStatus("Transaction was successful")
     //     setTimeout(()=>{
     //       setTransactionStatus("")
     //     },5000) 
