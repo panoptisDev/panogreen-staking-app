@@ -8,7 +8,7 @@ import WithdrawStakeAmount from './components/Withdraw/Withdraw';
 import ClaimReward from './components/ClaimReward/ClaimReward';
 import { StakingProvider } from './context/StakingContext';
 import './App.css';
-import backgroundImage from './assets/bg116.jpg';
+import backgroundImage from './assets/bg1161.jpg';
 import panoptisImage from './assets/panoptis1024.png';
 import Footer from "./components/Footer/Footer";
 
