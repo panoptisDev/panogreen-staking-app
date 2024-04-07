@@ -1,7 +1,9 @@
 # Token-Staking DApp
 
 This application is delivered as is. There is a CSS error causing the wallet connect-button to render at the center right of the page instead of at the top right corner. I tried to fix it but couldn't figure it out. I hope someone can fix it and get back to me. Besides this, it works just fine. I hope you enjoy it and star my repo if you like it.
-[![Netlify Status](https://api.netlify.com/api/v1/badges/2d7d2668-2c07-4985-9658-a2f0463defa8/deploy-status)](https://app.netlify.com/sites/panogreenstake/deploys)
+
+*[![Netlify Status](https://api.netlify.com/api/v1/badges/2d7d2668-2c07-4985-9658-a2f0463defa8/deploy-status)](https://app.netlify.com/sites/panogreenstake/deploys)
+---
 ![Token-Staking DApp](src/assets/digistake1.jpg)
 
 Token-Staking is a decentralized application (DApp) that allows users to stake a ERC20 token (new or old) and earn rewards. The staking process generates reward tokens on an hourly basis, rewarding users based on the amount and duration of their stake.
@@ -33,7 +35,7 @@ You need to approve staking contract for each token first before you can use the
 
 - **StakeToken.sol (STT):** [0x4d0eE15866f17E4762478958c549d4E693A09376](https://sepolia.etherscan.io/address/0x4d0eE15866f17E4762478958c549d4E693A09376#code)
 - **RewardToken.sol (RWT):** [0x1A91217F7dC8eb397f1CB29a479EFeE76Ce305cA](https://sepolia.etherscan.io/token/0x1A91217F7dC8eb397f1CB29a479EFeE76Ce305cA)
-- **Staking.sol:** [0xBc3232d2F5f2c1Bbe81F3b548fB88fCc17fdD57f](https://sepolia.etherscan.io/address/0xBc3232d2F5f2c1Bbe81F3b548fB88fCc17fdD57f#code)
+- **Staking.sol:** [0xf37894409dF321A66a2D9F167e5064b9B5C5da28](https://sepolia.etherscan.io/address/0xf37894409dF321A66a2D9F167e5064b9B5C5da28#code)
 
 ---
 
