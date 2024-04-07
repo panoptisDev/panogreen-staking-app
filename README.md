@@ -1,7 +1,7 @@
 # Token-Staking DApp
 
 This application is delivered as is. There is a CSS error causing the wallet connect-button to render at the center right of the page instead of at the top right corner. I tried to fix it but couldn't figure it out. I hope someone can fix it and get back to me. Besides this, it works just fine. I hope you enjoy it and star my repo if you like it.
-
+[![Netlify Status](https://api.netlify.com/api/v1/badges/2d7d2668-2c07-4985-9658-a2f0463defa8/deploy-status)](https://app.netlify.com/sites/panogreenstake/deploys)
 ![Token-Staking DApp](src/assets/digistake1.jpg)
 
 Token-Staking is a decentralized application (DApp) that allows users to stake a ERC20 token (new or old) and earn rewards. The staking process generates reward tokens on an hourly basis, rewarding users based on the amount and duration of their stake.
