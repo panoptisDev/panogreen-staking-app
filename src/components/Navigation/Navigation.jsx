@@ -6,16 +6,7 @@ import ConnectedNetwork from "./ConnectedNetwork";
 import "./Navigation.css";
 
 const Navigation = () => {
-  const [logoSrc, setLogoSrc] = useState("src/assets/banner44.png");
   const [provider, setProvider] = useState(null);
-
-  const handleMouseEnter = () => {
-    setLogoSrc("src/assets/banner43green.png");
-  };
-
-  const handleMouseLeave = () => {
-    setLogoSrc("src/assets/banner44.png");
-  };
 
   const handleWallet = async () => {
     if (window.ethereum) {
@@ -41,11 +32,9 @@ const Navigation = () => {
         <ConnectedAccount provider={provider} />
         <ConnectedNetwork provider={provider} />
         <img
-          src={logoSrc}
+          src="src/assets/banner44.png"
           alt="DigiStake Logo"
           className="logo"
-          onMouseEnter={handleMouseEnter}
-          onMouseLeave={handleMouseLeave}
         />
       </div>
     </header>
