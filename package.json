@@ -1,14 +1,14 @@
 {
   "name": "client",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.2.2",
   "type": "module",
   "author": "panoptisDev (https://github.com/panoptisDev)",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
+    "dev": "yarn vite",
+    "build": "yarn vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
+    "preview": "yarn vite preview"
   },
   "dependencies": {
     "ethers": "^6.8.1",
