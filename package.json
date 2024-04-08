@@ -4,6 +4,9 @@
   "version": "0.2.2",
   "type": "module",
   "author": "panoptisDev (https://github.com/panoptisDev)",
+  "engines": {
+    "node": "18.17.0"
+  },
   "scripts": {
     "dev": "yarn vite",
     "build": "yarn vite build",
