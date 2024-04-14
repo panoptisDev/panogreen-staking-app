@@ -7,7 +7,7 @@
     position: absolute;
     text-align: center;
     align-items: center;
-    background-color: rgb(195, 255, 163);
+    background-color: rgb(195, 255, 163, 0.8);
     border-bottom: 0.4px solid rgb(0, 0, 0);
     justify-content: center; /* Added this line */
    }
