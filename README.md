@@ -20,6 +20,14 @@ Token-Staking is a decentralized application (DApp) that allows users to stake a
 3. Sit back and watch your rewards accumulate.
 4. Remember, you can withdraw your staked amount and rewards at any time.
 
+## test the dapp
+* Go to my faucet that gives out tokens and get some snd start to stake.
+* https://stt-faucet-ui.vercel.app/
+* Or bild it your self and run it on your local machine.
+* https://github.com/panoptisDev/stt_faucet_ui
+
+
+
 ## Network Configuration
 
 To configure the network, make the following changes in the `components/Navigation` directory:
