@@ -2,8 +2,10 @@
   "name": "client",
   "private": true,
   "version": "0.2.2",
+  "homepage": ".",
   "type": "module",
-  "author": "panoptisDev (https://github.com/panoptisDev)",
+
+  "author": "panoptisDev",
   "engines": {
     "node": "20.x"
   },
